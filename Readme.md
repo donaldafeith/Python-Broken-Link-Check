@@ -79,8 +79,8 @@ Broken links and images found on example.com:
 Broken links:
 https://example.com/broken-link
 Broken or external images:
-https://external-image.com/image.jpg```
-
+https://external-image.com/image.jpg
+```
 ## License
 
 This script is released under the [MIT License](https://opensource.org/licenses/MIT).
