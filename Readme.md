@@ -58,17 +58,15 @@ You should see `(venv)` at the beginning of your command prompt, indicating that
 This will install the `requests` and `beautifulsoup4` libraries in the virtual environment.
 
 ## Usage
-
-1. Save the script to a Python file (e.g., `broken_links_checker.py`).
-2. Open a terminal or command prompt and navigate to the directory containing the script.
-3. Ensure that the virtual environment is activated (`(venv)` should be visible in your command prompt).
-4. Run the script using the following command:
+1. Open a terminal or command prompt and navigate to the directory containing the script.
+2. Ensure that the virtual environment is activated (`(venv)` should be visible in your command prompt).
+3. Run the script using the following command:
 
 ```python broken_links_checker.py```
 
-5. When prompted, enter the domain name you want to check (e.g., `example.com`).
-6. The script will start checking for broken links and images on the specified domain and display the progress.
-7. Once the check is complete, the script will display a list of broken links and broken or external images found on the website, if any.
+4. When prompted, enter the domain name you want to check (e.g., `example.com`).
+5. The script will start checking for broken links and images on the specified domain and display the progress.
+6. Once the check is complete, the script will display a list of broken links and broken or external images found on the website, if any.
 
 ## Example Output
 
