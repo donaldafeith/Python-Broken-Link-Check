@@ -72,10 +72,10 @@ This will install the `requests` and `beautifulsoup4` libraries in the virtual e
 
 ## Example Output
 
-``Enter the domain name: example.com``
-``Checking links and images... 100.00% - Currently checking: https://example.com/images/logo.png``
+```Enter the domain name: example.com
+Checking links and images... 100.00% - Currently checking: https://example.com/images/logo.png
 
-```Broken links and images found on example.com:
+Broken links and images found on example.com:
 Broken links:
 https://example.com/broken-link
 Broken or external images:
