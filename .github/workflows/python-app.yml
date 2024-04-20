@@ -39,4 +39,4 @@ jobs:
         pytest
     - name: Check for broken links and images
       run: |
-        python script.py
+        python check.py
