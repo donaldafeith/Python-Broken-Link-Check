@@ -20,10 +20,6 @@ This script was created by Donalda.
 - `requests` library
 - `beautifulsoup4` library
 
-You can install the required libraries using the following command:
-
-
-```pip install -r requirements.txt```
 
 ## Setup
 
@@ -33,23 +29,25 @@ It's recommended to use a virtual environment to install the required packages a
 
 2. Create a new virtual environment using the following command:
 
-```python -m venv venv```
+```
+python -m venv linkcheck
+```
 
-This will create a new directory called `venv` containing the virtual environment.
+This will create a new directory called `linkcheck` containing the virtual environment.
 
 3. Activate the virtual environment:
 
 - On Windows:
   ```
-  venv\Scripts\activate
+  linkcheck\Scripts\activate
   ```
 
 - On Unix or macOS:
   ```
-  source venv/bin/activate
+  source linkcheck/bin/activate
   ```
 
-You should see `(venv)` at the beginning of your command prompt, indicating that the virtual environment is activated.
+You should see `(linkcheck)` at the beginning of your command prompt, indicating that the virtual environment is activated.
 
 4. Install the required libraries by running:
 
@@ -61,7 +59,7 @@ This will install the `requests` and `beautifulsoup4` libraries in the virtual e
 
 ## Usage
 1. Open a terminal or command prompt and navigate to the directory containing the script.
-2. Ensure that the virtual environment is activated (`(venv)` should be visible in your command prompt).
+2. Ensure that the virtual environment is activated (`(linkcheck)` should be visible in your command prompt).
 3. Run the script using the following command:
 
 ```
